@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
+#ruby-gemset=ember-crm
 gem 'rails', '4.1.1'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -11,6 +12,9 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'pg'
+gem 'ember-rails'
+gem 'ember-source'
+gem 'emblem-rails'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
