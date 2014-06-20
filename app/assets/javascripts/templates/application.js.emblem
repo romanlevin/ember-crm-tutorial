@@ -1,1 +1,10 @@
-h1 Hello World
+header
+  article
+    .logo
+      h1
+        a href="#" EmberCRM
+
+section#main
+  = outlet
+
+footer

@@ -15,7 +15,9 @@ gem 'pg'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+gem 'puma'
 group :development do
+  gem 'ffaker'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'foreman'
